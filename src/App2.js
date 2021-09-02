@@ -1,27 +1,28 @@
 function App() {
-  return (
-    <div className="wrapper clear">
-      <header className="d-flex justify-between align-center p-40">
-        <div className="d-flex align-center">
-          <img width={40} height={40} src="/img/sneaker1.jpg" alt="logo"/>
-          <div>
-            <h3 className="text-uppercase">My React Sneakers</h3>
-            <p className="opacity-5">Магазин кожаных кроссовок</p>
-          </div>
-        </div>
-        <ul className="d-flex">
-          <li className="mr-30">
-            <img width={18} height={18} src="/img/cart.svg" alt="cart" />
-            <span>1205 руб.</span>
-          </li>
-          <li>
-            <img width={18} height={18} src="/img/user.svg" alt="user" /> 
-          </li>
-        </ul>
-      </header>
-      <div className="content p-40">
+    return (
+<div className="wrapper clear">
+<header className="d-flex justify-between align-center p-40">
+  <div className="d-flex align-center">
+    <img width={40} height={40} src="/img/logo.png" />
+    <div>
+      <h3 className="text-uppercase">React Sneakers</h3>
+      <p className="opacity-5">Магазин лучших кроссовок</p>
+    </div>
+  </div>
+  <ul className="d-flex">
+    <li className="mr-30">
+      <img width={18} height={18} src="/img/cart.svg" />
+      <span>1205 руб.</span>
+    </li>
+    <li>
+      <img width={18} height={18} src="/img/user.svg" />
+    </li>
+  </ul>
+</header>
+<div className="content p-40">
   <h1 className="mb-40">Все кроссовки</h1>
-        <div className="d-flex">
+
+  <div className="d-flex">
     <div className="card">
       <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers" />
       <h5>Мужские Кроссовки Nike Blazer Mid Suede</h5>
@@ -75,9 +76,8 @@ function App() {
       </div>
     </div>
   </div>
-      </div>
-    </div>
-  );
+</div>
+</div>
+);
 }
-
 export default App;
